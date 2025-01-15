@@ -20,3 +20,17 @@ print(c+d)
     manually by the programmer . 1st int is converted into float
     and in the 2nd we give some instruction  variable = type(value)
       """
+
+# input in python
+print("Input in Python")
+name = input("Enter your name : ")
+age = input("Enter your age : ")
+
+print("Welcome" , name)
+print("Age : ", age)
+
+print(type(age))
+
+val = int(input("Enter the value : "))
+print(val)
+print(type(val))
